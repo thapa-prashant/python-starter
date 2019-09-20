@@ -14,3 +14,13 @@ VARIABLE RULES:
   - Can have numbers but can not start with one
 """
 
+list1=[1,2,3,4]
+list2=[1,2,3,4]
+print(list1)
+list1=list2
+print(list2)
+print(id(list1))
+list1
+
+name="ram"
+print(f"my name is {name}")
